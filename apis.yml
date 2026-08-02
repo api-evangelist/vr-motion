@@ -1,7 +1,23 @@
 aid: vr-motion
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vr-motion.png
 name: VR Motion
-description: VR Motion is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: VR Motion Corp develops virtual-reality driver-training simulation systems, marketed under
+  its RealDrive product, delivering true-to-life driving simulations that the company says achieve over
+  70% greater skills retention than traditional training. It serves commercial fleets, last-mile delivery
+  operations, first responders, and driving schools. VR Motion is a 500 Global portfolio company. As of
+  the 2026-07-21 enrichment pass its public web presence is a marketing site with no developer API, docs,
+  SDK, or developer portal, so there is no machine-readable API surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/vr-motion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Virtual Reality
+- Simulation
+- Training
+- Driver Training
+- Fleet
+- Automotive
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +45,8 @@ maintainers:
 common:
 - type: Website
   url: https://vrmotioncorp.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
